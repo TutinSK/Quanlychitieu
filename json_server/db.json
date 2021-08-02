@@ -1,0 +1,24 @@
+{
+  "course": [
+    {
+      "id": 1,
+      "name": "Kiến thức cho người cơ bản",
+      "description": "giúp các bạn biết ...."
+    },
+    {
+      "name": "Kiến thức cơ bản cho người mới",
+      "description": "Giúp abcxyz",
+      "id": 2
+    },
+    {
+      "name": "Kiến thức cơ bản cho người mới",
+      "description": "Giúp abcxyz",
+      "id": 3
+    },
+    {
+      "name": "Kiến thức cơ bản cho người mới",
+      "description": "Giúp abcxyz",
+      "id": 4
+    }
+  ]
+}

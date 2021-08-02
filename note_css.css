@@ -1,0 +1,30 @@
+Padding: phần bao bọc ngay sau content, làm tăng kích thước phần element;
+border: phần bao bọc sau padding, làm tăng kích thước element;
+margin: phần bao ngòai cùng, làm thay đổi vị trí của element so vs element khác nhưng ko làm thay đổi kích thước element;
+box-sizing: border-box; Tự động tính toán để đưa phần content ra giữa(VD muốn phần nội dung ra giữa màn hình);
+background-clip: content-box (border-box)...: dùng trong trường hợp layout muốn đổ màu nền cho chỗ nào thì dùng này
+background-repeat: no-repeat; dùng khi ko muốn bị rêpat
+background-size:auto 100%; bằng vị trí của thẻ chứa nó hoặc dùng keywords
+background-size: contain; sẽ cố gắng lấy chiều dài nhất của bức ảnh vs dkien k bị cắt xen và che bớt
+background-size: cover; giống contain nhưng chấp nhận che khuất 1 phần ảnh
+background-origin: border-box, padding-box, content-box: đổ từ 1 trong 3 thuộc tính trên
+background-position:top, bottom, left, right: tự hiểu và đưa thêm center vào
+pseudo-classes: :root, :cover, :active, ... lớp giả select các class
+pseudo-element: ::after, ::before, ::first-letter, ::first-line, ::selection phần tử giả
+
+
+        /* Position */
+position: relative; vj trí tương đối, ko phụ thuộc vào vị trí của chính nó để làm gốc tọa độ(VD làm thông báo )
+position: absolute; vị trí tuyệt đối, phụ thuộc vào vị trí thẻ cha gần nhát có thuộc tính position để làm gốc tọa độ()
+position: fixed; vị trí ko bị thay đổi và phụ thuộc vào trình duyejt, cố định (VD thanh navbar)
+
+    /* flexbox */
+flex-basis: 30%: xác định kích thước main size(chiều ngang của element)
+justify-content: space-between, space-around, space-evenly: cách giữa, cách giữa và 2 mép 2 bên bằng nửa mép giữa, tất cả
+    khaongr cách đều bằng nhau
+
+flex-wrap: wrap, no-wrap: khi tràn màn hình thì xuống dòng, k xuống dòng
+wrap-reverse: đổi chiều khi muốn tràn thì lên dòng thay vì xuống dòng
+
+align-items: flex-end, lật ngược cross-start
+flex-direction: row, column, 2 thuộc tính theo hàng và theo cột
